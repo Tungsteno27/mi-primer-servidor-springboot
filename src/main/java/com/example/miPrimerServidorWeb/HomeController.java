@@ -19,6 +19,6 @@ public class HomeController {
 
     @PostMapping("/mensaje")
     public String mensaje(@RequestBody String texto){
-        return "mensaje " + texto;
+        return "mensaje: " + texto;
     }
 }
