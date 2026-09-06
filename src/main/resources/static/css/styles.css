@@ -1,0 +1,85 @@
+
+body {
+    font-family: Arial, Tahoma, Verdana;
+    background-color: hsl(268 27% 12%);
+    color: white;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0 20px;
+    padding-top: 60px;
+}
+
+h1, h2, h3 {
+    color: #e6d9ff;
+}
+
+a {
+    color: #c9a9f5;
+}
+
+footer {
+    text-align: center;
+}
+
+.menu-secciones {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: hsl(246 34% 12%);
+    padding: 10px 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.menu-secciones a {
+    margin: 0 10px;
+}
+
+main {
+    padding-top: 20px;
+}
+
+#sobre-mi {
+    background-color: hsl(270, 30%, 34%);
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+#formacion {
+    background-color: hsl(280, 25%, 32%);
+    border: 3px solid #ddd;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+#contacto {
+    background-color: hsl(270, 30%, 34%);
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+.destacado {
+    background-color: #e0d0f5;
+    color: #1a1a1a;
+    padding: 15px;
+    border-left: 4px solid #6b2fb3;
+}
+
+.tabla-bonita {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.tabla-bonita th, .tabla-bonita td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+.tabla-bonita th {
+    background-color: hsl(270, 30%, 34%);
+    color: white;
+}

@@ -3,37 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>Mi portafolio personal</title>
-    <meta name="viewport" content="width=device-width, initia-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="portafolio profesional del ingeniero Willian Tolano">
     <meta name="keywords" content="portafolio, ingeniero en ingenieria de software">
     <meta name="author" content="Willian Alexander Tolano Fierros">
     <meta name="robots" content="index, follow">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 <header>
     <h1>Willian Alexander Tolano Fierros</h1>
     <p> Estudiante de ingeniería en Software | Inversor en bolsa | Desarrollador backend  </p>
-    <nav>
-        <a href="index.html">home</a>
-        <a href="hobbies.html">mis hobbies</a>
-    </nav>
-    <nav>
-        <a href="#sobre-mi">sobre mi</a>
-        <a href="#habilidades">habilidades</a>
-        <a href="#formacion">formacion</a>
-        <a href="#proyecto">proyectos</a>
-        <a href="#contacto">contacto</a>
+
+    <nav class="menu-secciones">
+        <a href="index.html">Home</a>
+        <a href="hobbies.html">Mis hobbies</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#formacion">Formación</a>
+        <a href="#proyecto">Proyectos</a>
+        <a href="#contacto">Contacto</a>
     </nav>
 </header>
 <main>
     <section id="sobre-mi">
         <h2>Sobre mi</h2>
-        <p>soy Willian Alexander, <strong>ingeniero en Software</strong> y llevo 2 años aprendiendo acerca del mundo del software</p>
-        <img src="willian.jpeg" alt="foto de perfil de mi rostro" width="200">
+        <p class="destacado">soy Willian Alexander, <strong>ingeniero en Software</strong> y llevo 2 años aprendiendo acerca del mundo del software</p>
+        <a href="pagina_secreta.html"><img src="willian.jpeg" alt="foto de perfil de mi rostro" width="200" ></a>
     </section>
     <section id="habilidades">
-        <h2>habilidades </h2>
+        <h2>Habilidades </h2>
         <ul>
             <li>Java</li>
             <li>Sql</li>
@@ -41,8 +41,8 @@
         </ul>
     </section>
     <section id="formacion">
-        <h2>formación y experiencia</h2>
-        <table>
+        <h2>Formación y experiencia</h2>
+        <table class="tabla-bonita">
             <tr>
                 <th>Nombre de escuela</th>
                 <th>tipo</th>
@@ -74,21 +74,21 @@
     </section>
     <section id="proyecto">
         <h2>Mis proyectos</h2>
-        <h3>proyecto integrador de software</h3>
+        <h3>Proyecto de Diseño de Software</h3>
         <ul>
-            <li>tienda en linea
+            <li>Sistema de gestión y compra de membresía para cadena de gimnasio
                 <ol>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JS</li>
+                    <li>Java</li>
+                    <li>JavaScript con Mongo</li>
+                    <li>SQL</li>
                 </ol>
             </li>
         </ul>
-        <a href="https://github.com/Tungsteno27" target="_blank" rel="noopener">Ver mi repositorio de github</a>
+        <a href="https://github.com/Tungsteno27/mi-primer-servidor-springboot" target="_blank" rel="noopener">Ver mi repositorio de github</a>
     </section>
     <article id="contacto">
-        <h2>contacto</h2>
-        <p>puedes contactarme en los siguientes canales</p>
+        <h2>Contacto</h2>
+        <p>Puedes contactarme en los siguientes canales</p>
         <a href="mailto:Tungsteno5027@gmail.com" target="_blank">correo electrónico</a>
         <a href="tel:+526442014769">+52 6442014769 </a>
         <a href="https://wa.me/526442014769?text=Hola" target="_blank">WhatsApp</a>
