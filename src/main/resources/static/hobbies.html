@@ -6,18 +6,53 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+<header>
 <h1>Mis hobbies </h1>
 <p>En está sección de mi portafolio listaré algunos de mis hobbies preferidos</p>
-<ul>
-    <li>Leer Cómics</li>
-    <li>Jugar en mi querida xbox series s</li>
-    <li>Entregar las asignaciones de aplicaciones web en tiempo y forma</li>
-</ul>
-<h2>Mis juegos favoritos del mundo mundial</h2>
-<ol>
-    <li>The Witcher 3</li>
-    <li>Undertale</li>
-    <li>Terraria</li>
-</ol>
+    <nav class="menu-secciones">
+        <a href="index.html">Home</a>
+        <a href="hobbies.html">Mis hobbies</a>
+        <a href="practica2.html#sobre-mi">Sobre mí</a>
+        <a href="practica2.html#habilidades">Habilidades</a>
+        <a href="practica2.html#formacion">Formación</a>
+        <a href="practica2.html#proyecto">Proyectos</a>
+        <a href="practica2.html#contacto">Contacto</a>
+    </nav>
+</header>
+<main>
+    <section id="hobbies">
+        <div class="grid-tarjetas">
+            <div class="tarjeta">
+                <span class="icono">📚</span>
+                <p>Leer cómics</p>
+            </div>
+            <div class="tarjeta">
+                <span class="icono">🎮</span>
+                <p>Jugar en mi querida Xbox Series S</p>
+            </div>
+            <div class="tarjeta">
+                <span class="icono">✅</span>
+                <p>Entregar las asignaciones de aplicaciones web en tiempo y forma</p>
+            </div>
+        </div>
+    </section>
+    <section id="juegos-favoritos">
+        <h2>Mis juegos favoritos del mundo mundial</h2>
+        <div class="grid-tarjetas">
+            <div class="tarjeta tarjeta-juego">
+                <img src="img/witcher3.jpg" alt="Portada de The Witcher 3">
+                <p>The Witcher 3</p>
+            </div>
+            <div class="tarjeta tarjeta-juego">
+                <img src="img/undertale.jpg" alt="Portada de Undertale">
+                <p>Undertale</p>
+            </div>
+            <div class="tarjeta tarjeta-juego">
+                <img src="img/terraria.jpg" alt="Portada de Terraria">
+                <p>Terraria</p>
+            </div>
+        </div>
+    </section>
+</main>
 </body>
 </html>
