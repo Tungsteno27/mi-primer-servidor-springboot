@@ -3,7 +3,7 @@
     --color-fondo: hsl(268 27% 12%);
     --color-fondo-menu: hsl(246 34% 12%);
     --color-superficie: hsl(270 30% 34%);
-    --color-superficie-secundaria: hsl(280 25% 32%);
+    --color-superficie-secundaria: hsl(268 31% 49%);
     --color-texto: white;
     --color-titulos: #e6d9ff;
     --color-enlaces: #c9a9f5;
@@ -80,71 +80,26 @@ header {
     padding-top: 60px;
 }
 
-#sobre-mi {
+#sobre-mi, #habilidades, #proyecto, #formacion, #contacto {
     border: 3px solid var(--color-borde);
     background-color: var(--color-superficie);
     padding: 15px;
-    margin: 20px 0;
+    max-width: 700px;
+    margin: 20px auto;
     border-radius: 10px;
     display: flow-root;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-#habilidades{
-    border: 3px solid var(--color-borde);
-    background-color: var(--color-superficie);
-    padding: 15px;
-    margin: 20px 0;
-    border-radius: 10px;
-    display: flow-root;
-}
-#habilidades:hover{
-    background-color: var(--color-tarjeta-hover);
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
-}
-#proyecto{
-    border: 3px solid var(--color-borde);
-    background-color: var(--color-superficie);
-    padding: 15px;
-    margin: 20px 0;
-    border-radius: 10px;
-    display: flow-root;
-}
-#proyecto:hover{
-    background-color: var(--color-tarjeta-hover);
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
-}
-#sobre-mi:hover {
-    background-color: var(--color-tarjeta-hover);
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
-}
-
-#formacion {
+#habilidades, #proyecto{
     background-color: var(--color-superficie-secundaria);
-    border: 3px solid var(--color-borde);
-    padding: 15px;
-    margin: 20px 0;
-    border-radius: 10px;
 }
-#formacion:hover {
+
+#sobre-mi:hover, #habilidades:hover, #proyecto:hover, #formacion:hover, #contacto:hover {
     background-color: var(--color-tarjeta-hover);
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
-#contacto {
-    background-color: var(--color-superficie);
-    padding: 15px;
-    margin: 20px 0;
-    border-radius: 10px;
-    border: 3px solid var(--color-borde);
-}
-#contacto:hover {
-    background-color: var(--color-tarjeta-hover);
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
-}
 
 .destacado {
     display: block;
