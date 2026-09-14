@@ -38,6 +38,7 @@ body {
 
 h1, h2, h3 {
     color: var(--color-titulos);
+
 }
 
 a {
@@ -75,6 +76,37 @@ header {
     border-radius: 10px;
     display: flow-root;
 }
+#habilidades{
+    border: 3px solid var(--color-borde);
+    background-color: var(--color-superficie);
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+    display: flow-root;
+}
+#habilidades:hover{
+    background-color: var(--color-tarjeta-hover);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+#proyecto{
+    border: 3px solid var(--color-borde);
+    background-color: var(--color-superficie);
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+    display: flow-root;
+}
+#proyecto:hover{
+    background-color: var(--color-tarjeta-hover);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+#sobre-mi:hover {
+    background-color: var(--color-tarjeta-hover);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
 
 #formacion {
     background-color: var(--color-superficie-secundaria);
@@ -83,12 +115,23 @@ header {
     margin: 20px 0;
     border-radius: 10px;
 }
+#formacion:hover {
+    background-color: var(--color-tarjeta-hover);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
 
 #contacto {
     background-color: var(--color-superficie);
     padding: 15px;
     margin: 20px 0;
     border-radius: 10px;
+    border: 3px solid var(--color-borde);
+}
+#contacto:hover {
+    background-color: var(--color-tarjeta-hover);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 .destacado {
