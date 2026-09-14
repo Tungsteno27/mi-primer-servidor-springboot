@@ -16,6 +16,9 @@
     --color-tarjeta-hover: hsl(270 25% 26%);
 }
 
+.texto-principal{
+    text-align: center;
+}
 .foto-perfil {
     float: left;
     width: 200px;
