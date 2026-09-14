@@ -19,6 +19,15 @@
 .texto-principal{
     text-align: center;
 }
+.seccion{
+    display: inline-block;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.seccion:hover{
+    color: var(--color-texto);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
 .foto-perfil {
     float: left;
     width: 200px;
